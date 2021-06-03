@@ -13,7 +13,7 @@ public class App {
         int order = 2;
         Graph g = new Graph();
 
-        String path = "/home/ben/git/markovGenerator/src/com/bncarey42/names.txt";
+        String path = "./names.txt";
         try(Stream<String> stream = Files.lines(Paths.get(path))) {
             corpus = stream.collect(Collectors.joining(" "));
         }
