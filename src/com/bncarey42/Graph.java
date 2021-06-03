@@ -1,7 +1,5 @@
 package com.bncarey42;
 
-import com.bncarey42.markov.Edge;
-
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
